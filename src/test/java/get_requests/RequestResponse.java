@@ -2,11 +2,12 @@ package get_requests;
 
 import io.restassured.response.Response;
 
-import static io.restassured.RestAssured.get;
+ import static io.restassured.RestAssured.get;
 import static io.restassured.RestAssured.given;
 
 public class RequestResponse {
-    /*
+
+     /*
     1) Postman manuel API testi için kullanılır.
     2) API otomasyonu için Rest-Assured Library
     3) Otomasyon kodlarının yazımı için şu adımları izliyoruz:
@@ -30,7 +31,7 @@ public class RequestResponse {
         //Get request nasıl yapılır:
         Response response = given().when().get(url);
 
-        response.prettyPrint();//prettyPrint() methodu response datayı yazdırır.
+        response.prettyPrint(); //prettyPrint() methodu response datayı yazdırır. (json formatında yazdırır)
 
         //Status Code nasıl yazdırılır:
         System.out.println("Status Code: " + response.statusCode());
