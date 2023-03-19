@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8cb54671-77c4-469c-930a-fc09cc7345c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/base_urls/GoRestBaseUrl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get09.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/patch_request/Patch01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test_data/GoRestTestData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test_data/HerOkuAppTestData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/JsonPlaceHolderPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/post_requests/Post02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/post_requests/Post03.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test_data/JsonPlaceHolderTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test_data/JsonPlaceHolderTestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test_data/HerOkuAppTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test_data/HerOkuAppTestData.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
