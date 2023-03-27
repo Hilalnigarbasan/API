@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8cb54671-77c4-469c-930a-fc09cc7345c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/herokuapp_smoketest/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/herokuapp_smoketest/S1Post.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/herokuapp_smoketest/S2Put.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/herokuapp_smoketest/S3Delete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/herokuapp_smoketest/S5Get.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/delete_requests/Delete01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/delete_requests/Delete02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/DummyRestApiDeleteBodyPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/post_requests/Post06.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base_urls/HerOkuAppBaseUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base_urls/HerOkuAppBaseUrl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +49,22 @@
       <recent name="base_urls" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.herokuapp_smoketest in b103API">
+  <component name="RunManager" selected="JUnit.Post06">
+    <configuration name="Post06" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="b103API" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="post_requests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="post_requests" />
+      <option name="MAIN_CLASS_NAME" value="post_requests.Post06" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="b103API" />
       <extension name="coverage">
@@ -62,21 +75,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="herokuapp_smoketest" />
       <option name="MAIN_CLASS_NAME" value="herokuapp_smoketest.Runner" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="S1Post" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="b103API" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="herokuapp_smoketest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="herokuapp_smoketest" />
-      <option name="MAIN_CLASS_NAME" value="herokuapp_smoketest.S1Post" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Post06" />
         <item itemvalue="JUnit.herokuapp_smoketest in b103API" />
         <item itemvalue="TestNG.herokuapp_smoketest" />
         <item itemvalue="JUnit.Runner" />
         <item itemvalue="JUnit.S2Put" />
-        <item itemvalue="JUnit.S1Post" />
       </list>
     </recent_temporary>
   </component>
